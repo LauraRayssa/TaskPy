@@ -1,5 +1,11 @@
 
-from tarefas import adicionar_tarefa, listar_tarefas
+from tarefas import (
+    adicionar_tarefa,
+    listar_tarefas,
+    concluir_tarefa,
+    excluir_tarefa
+)
+
 
 
 
@@ -27,10 +33,10 @@ def main():
             listar_tarefas()
 
         elif opcao == "3":
-            print("Funcionalidade em desenvolvimento!")
+            concluir_tarefa()
 
         elif opcao == "4":
-            print("Funcionalidade em desenvolvimento!")
+            excluir_tarefa()
 
         elif opcao == "5":
             print("Encerrando o TaskPy. Até logo!")
