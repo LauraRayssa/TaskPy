@@ -28,7 +28,7 @@ def main():
             print("Funcionalidade em desenvolvimento!")
 
         elif opcao == "5":
-            print("Encerrando o TaskPy. Até logo!")
+            print("Você saiu do TaskPy. Até logo!")
             break
 
         else:
