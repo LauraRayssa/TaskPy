@@ -1,4 +1,7 @@
 
+from tarefas import adicionar_tarefa
+
+
 def exibir_menu():
     print("\n===== TASKPY =====")
     print("Gerenciador de Tarefas")
@@ -9,6 +12,7 @@ def exibir_menu():
     print("4 - Excluir tarefa")
     print("5 - Sair")
 
+
 def main():
     while True:
         exibir_menu()
@@ -16,7 +20,7 @@ def main():
         opcao = input("\nEscolha uma opção: ")
 
         if opcao == "1":
-            print("Funcionalidade em desenvolvimento!")
+            adicionar_tarefa()
 
         elif opcao == "2":
             print("Funcionalidade em desenvolvimento!")
@@ -28,11 +32,12 @@ def main():
             print("Funcionalidade em desenvolvimento!")
 
         elif opcao == "5":
-            print("Você saiu do TaskPy. Até logo!")
+            print("Encerrando o TaskPy. Até logo!")
             break
 
         else:
             print("Opção inválida. Tente novamente.")
+
 
 if __name__ == "__main__":
     main()
