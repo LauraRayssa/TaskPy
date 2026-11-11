@@ -1,5 +1,6 @@
 
-from tarefas import adicionar_tarefa
+from tarefas import adicionar_tarefa, listar_tarefas
+
 
 
 def exibir_menu():
@@ -23,7 +24,7 @@ def main():
             adicionar_tarefa()
 
         elif opcao == "2":
-            print("Funcionalidade em desenvolvimento!")
+            listar_tarefas()
 
         elif opcao == "3":
             print("Funcionalidade em desenvolvimento!")
